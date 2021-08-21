@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d9fbe8ed-af1d-4bfb-a5fd-1a36e280db5a" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/testng/src/main/java/com/guazi/suite/ExpectedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
       <recent name="$PROJECT_DIR$/testng/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ExpectedException">
+  <component name="RunManager" selected="TestNG.DependTest.test2">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -64,6 +65,24 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DependTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guazi.suite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.guazi.suite" />
+      <option name="MAIN_CLASS_NAME" value="com.guazi.suite.DependTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,23 +139,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IgnoreTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.guazi.groups.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.guazi.suite" />
-      <option name="MAIN_CLASS_NAME" value="com.guazi.suite.IgnoreTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="/Users/lixinwei/IdeaProjects/MyJava/autotest/testng/src/main/resources/groupsOnClass.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng/src/main/resources/groupsOnClass.xml" />
@@ -149,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DependTest.test2" />
         <item itemvalue="TestNG.ExpectedException" />
         <item itemvalue="TestNG.ExpectedException.runTimeExceptionFailed" />
         <item itemvalue="TestNG.GroupsOnMethod" />
         <item itemvalue="TestNG./Users/lixinwei/IdeaProjects/MyJava/autotest/testng/src/main/resources/groupsOnClass.xml" />
-        <item itemvalue="TestNG.IgnoreTest" />
       </list>
     </recent_temporary>
   </component>
