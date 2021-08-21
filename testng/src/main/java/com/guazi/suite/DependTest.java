@@ -19,7 +19,6 @@ public class DependTest {
     @Test
     public void test1() {
         System.out.println("test1 run");
-        throw new RuntimeException();
     }
 
     /**
@@ -28,5 +27,19 @@ public class DependTest {
     @Test(dependsOnMethods = {"test1"})
     public void test2() {
         System.out.println("test2 run");
+    }
+
+    @Test
+    public void test3() {
+        System.out.println("test3333333 run");
+        throw new RuntimeException();
+    }
+
+    /**
+     * 此处的test1就是上边的方法名
+     */
+    @Test(dependsOnMethods = {"test3"})
+    public void test4() {
+        System.out.println("test4444444 run");
     }
 }
