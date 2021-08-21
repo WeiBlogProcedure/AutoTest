@@ -36,7 +36,7 @@ public class DependTest {
     }
 
     /**
-     * 此处的test1就是上边的方法名
+     * 此处的test3就是上边的方法名
      */
     @Test(dependsOnMethods = {"test3"})
     public void test4() {
