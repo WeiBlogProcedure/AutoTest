@@ -5,38 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9fbe8ed-af1d-4bfb-a5fd-1a36e280db5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng/src/main/java/com/guazi/apitest/util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng/src/main/java/com/guazi/suite/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng/src/main/java/com/guazi/suite/PayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng/src/main/java/com/guazi/suite/SuiteConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng/src/main/resources/suite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paym-testngtest/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paym-testngtest/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paym-testngtest/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paym-testngtest/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paym-testngtest/paym-testngtest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paym-testngtest/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paym-testngtest/src/main/java/com/guazi/apitest/util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paym-testngtest/src/main/java/com/guazi/suite/LoginTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paym-testngtest/src/main/java/com/guazi/suite/PayTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paym-testngtest/src/main/java/com/guazi/suite/SuiteConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paym-testngtest/src/main/resources/suite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paym-testngtest/target/classes/com/guazi/apitest/util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paym-testngtest/target/classes/com/guazi/suite/LoginTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paym-testngtest/target/classes/com/guazi/suite/PayTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paym-testngtest/target/classes/com/guazi/suite/SuiteConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paym-testngtest/test/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paym-testngtest/testng.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng/src/main/java/com/guazi/suite/IgnoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="test" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -59,6 +48,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/testng/src/main/resources" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -67,7 +57,7 @@
       <recent name="$PROJECT_DIR$/testng/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/lixinwei/IdeaProjects/MyJava/autotest/testng/src/main/resources/suite.xml">
+  <component name="RunManager" selected="TestNG.IgnoreTest">
     <configuration name="util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.guazi.apitest.util" />
       <module name="testng" />
@@ -88,6 +78,23 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IgnoreTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guazi.groups.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.guazi.suite" />
+      <option name="MAIN_CLASS_NAME" value="com.guazi.suite.IgnoreTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,6 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.IgnoreTest" />
         <item itemvalue="TestNG./Users/lixinwei/IdeaProjects/MyJava/autotest/testng/src/main/resources/suite.xml" />
         <item itemvalue="Application.util" />
         <item itemvalue="TestNG./Users/lixinwei/IdeaProjects/MyJava/autotest/testng.xml" />
@@ -130,7 +138,7 @@
       <updated>1629513322971</updated>
       <workItem from="1629513324851" duration="58000" />
       <workItem from="1629513593004" duration="30000" />
-      <workItem from="1629514563105" duration="675000" />
+      <workItem from="1629514563105" duration="2094000" />
     </task>
     <servers />
   </component>
