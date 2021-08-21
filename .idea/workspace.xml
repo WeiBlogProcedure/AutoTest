@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="d9fbe8ed-af1d-4bfb-a5fd-1a36e280db5a" name="Default Changelist" comment="" />
-=======
     <list default="true" id="d9fbe8ed-af1d-4bfb-a5fd-1a36e280db5a" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/testng/src/main/java/com/guazi/suite/DependTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng/target/classes/com/guazi/suite/ExpectedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/testng/target/classes/com/guazi/suite/ExpectedException.class" afterDir="false" />
     </list>
->>>>>>> f-20210821-Parameter
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
