@@ -7,7 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="test" />
+        <module name="testng" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="autotest" target="8" />
+      <module name="paym-testngtest" target="1.8" />
+      <module name="test" target="1.8" />
+      <module name="testng" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

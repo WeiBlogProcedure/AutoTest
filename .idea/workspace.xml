@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d9fbe8ed-af1d-4bfb-a5fd-1a36e280db5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng/src/main/java/com/guazi/apitest/util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng/src/main/java/com/guazi/suite/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng/src/main/java/com/guazi/suite/PayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng/src/main/java/com/guazi/suite/SuiteConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng/src/main/resources/suite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paym-testngtest/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paym-testngtest/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paym-testngtest/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paym-testngtest/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paym-testngtest/paym-testngtest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paym-testngtest/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paym-testngtest/src/main/java/com/guazi/apitest/util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paym-testngtest/src/main/java/com/guazi/suite/LoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paym-testngtest/src/main/java/com/guazi/suite/PayTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paym-testngtest/src/main/java/com/guazi/suite/SuiteConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paym-testngtest/src/main/resources/suite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paym-testngtest/target/classes/com/guazi/apitest/util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paym-testngtest/target/classes/com/guazi/suite/LoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paym-testngtest/target/classes/com/guazi/suite/PayTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paym-testngtest/target/classes/com/guazi/suite/SuiteConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paym-testngtest/test/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paym-testngtest/testng.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/Library/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="/Library/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1x1CgzXaKmeHTUod8XpycxsKPut" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/testng/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testng/src/main/resources" />
+      <recent name="$PROJECT_DIR$/testng/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/lixinwei/IdeaProjects/MyJava/autotest/testng/src/main/resources/suite.xml">
+    <configuration name="util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guazi.apitest.util" />
+      <module name="testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guazi.apitest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/lixinwei/IdeaProjects/MyJava/autotest/testng/src/main/resources/suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng/src/main/resources/suite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/lixinwei/IdeaProjects/MyJava/autotest/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autotest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/lixinwei/IdeaProjects/MyJava/autotest/testng/src/main/resources/suite.xml" />
+        <item itemvalue="Application.util" />
+        <item itemvalue="TestNG./Users/lixinwei/IdeaProjects/MyJava/autotest/testng.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9fbe8ed-af1d-4bfb-a5fd-1a36e280db5a" name="Default Changelist" comment="" />
+      <created>1629513322971</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629513322971</updated>
+      <workItem from="1629513324851" duration="58000" />
+      <workItem from="1629513593004" duration="30000" />
+      <workItem from="1629514563105" duration="675000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
