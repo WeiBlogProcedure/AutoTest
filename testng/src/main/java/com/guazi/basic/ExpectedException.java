@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 /**
  * @ClassName ExpectedException
- * @Description TODO
+ * @Description TODO 异常测试
  * @Author lixinwei
  * @Date 2021/8/21 5:38 下午
  * @Version 1.0
