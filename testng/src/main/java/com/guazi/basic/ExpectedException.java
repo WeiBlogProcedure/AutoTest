@@ -1,4 +1,4 @@
-package com.guazi.suite;
+package com.guazi.basic;
 
 import org.testng.annotations.Test;
 
