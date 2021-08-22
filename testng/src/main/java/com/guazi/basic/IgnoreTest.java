@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 /**
  * @ClassName IgnoreTest
- * @Description TODO
+ * @Description TODO 忽略测试
  * @Author lixinwei
  * @Date 2021/8/21 11:22 上午
  * @Version 1.0
