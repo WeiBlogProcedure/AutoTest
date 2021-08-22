@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 /**
  * @ClassName DependTest
- * @Description TODO
+ * @Description TODO 依赖测试
  * @Author lixinwei
  * @Date 2021/8/21 5:48 下午
  * @Version 1.0
