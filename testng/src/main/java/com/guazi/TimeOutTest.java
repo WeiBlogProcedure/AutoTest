@@ -10,7 +10,10 @@ import org.testng.annotations.Test;
  * @Version 1.0
  **/
 public class TimeOutTest {
-
+    /**
+     * 应用场景：我计划等待5秒响应，然而没有响应那么就进行下一个方法
+     * @throws InterruptedException
+     */
     //单位为毫秒值
     @Test(timeOut = 3000)
     public void testSuccess() throws InterruptedException {
