@@ -7,10 +7,9 @@
     },
     "response": {
       "cookies": {
-        "login": "true",
-        "status": "10000"
+        "login": "true"
       },
-      "text": "恭喜你活的cookies信息成功"
+      "text": "恭喜你获得cookies信息成功"
     }
   },
   {
