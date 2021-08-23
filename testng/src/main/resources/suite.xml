@@ -1,5 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="test">
+    <!--套件测试-->
     <test name="login">
         <classes>
             <class name="com.guazi.suite.SuiteConfig"/>

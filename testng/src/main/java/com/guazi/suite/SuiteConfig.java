@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeSuite;
 
 /**
  * @ClassName SuiteConfig
- * @Description TODO
+ * @Description TODO 套件测试
  * @Author lixinwei
  * @Date 2021/8/21 1:31 上午
  * @Version 1.0
