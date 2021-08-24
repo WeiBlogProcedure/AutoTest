@@ -1,0 +1,6 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="用户管理系统测试套件">
+    <test name="">
+
+    </test>
+</suite>
