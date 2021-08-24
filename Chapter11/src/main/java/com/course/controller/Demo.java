@@ -6,10 +6,7 @@ import io.swagger.annotations.ApiOperation;
 import lombok.extern.log4j.Log4j;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @ClassName Demo
@@ -37,5 +34,17 @@ public class Demo {
     @ApiOperation(value = "新增用户",httpMethod = "POST")
     public int addUser(@RequestBody User user) {
         return template.insert("addUser",user);
+    }
+
+    @RequestMapping(value = "/updateUser", method = RequestMethod.POST)
+    @ApiOperation(value = "修改用户", httpMethod = "POST")
+    public int updateUser(@RequestBody User user) {
+        return template.update("updateUser",user);
+    }
+
+    @RequestMapping(value = "/delUser", method = RequestMethod.DELETE)
+    @ApiOperation(value = "删除用户", httpMethod = "DELETE")
+    public int delUser(@RequestParam int id) {
+        return template.delete("delUser",id);
     }
 }
