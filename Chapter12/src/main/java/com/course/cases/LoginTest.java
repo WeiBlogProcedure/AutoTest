@@ -2,9 +2,15 @@ package com.course.cases;
 
 import com.course.config.TestConfig;
 import com.course.model.InterfaceName;
+import com.course.model.LoginCase;
 import com.course.utils.ConfigFile;
-import org.apache.http.impl.client.DefaultHttpClient;
+import com.course.utils.DatabaseUtil;
+import org.apache.http.impl.client.HttpClientBuilder;
+import org.apache.ibatis.session.SqlSession;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import java.io.IOException;
 
 /**
  * @ClassName LoginTest
@@ -21,7 +27,23 @@ public class LoginTest {
         TestConfig.addUserUrl = ConfigFile.getUrl(InterfaceName.ADDUSERINFO);
         TestConfig.updateUserInfoUrl = ConfigFile.getUrl(InterfaceName.UPDATEUSERINFO);
         TestConfig.loginUrl = ConfigFile.getUrl(InterfaceName.LOGIN);
+//        DefaultHttpClient defaultHttpClient = new DefaultHttpClient();//此方法已经被弃用
+        TestConfig.defaultHttpClient = HttpClientBuilder.create().build();//使用该方法获取DefaultHttpClient请求
+    }
 
-        TestConfig.defaultHttpclient = new DefaultHttpClient();
+    @Test(groups = "loginTure", description = "用户登录成功接口测试")
+    public void loginTrue() throws IOException {
+        SqlSession session = DatabaseUtil.getSqlSession();
+        LoginCase loginCase = session.selectOne("loginCase", 1);
+        System.out.println(loginCase.toString());
+        System.out.println(TestConfig.loginUrl);
+    }
+
+    @Test(groups = "loginFalse", description = "用户登陆失败接口测试")
+    public void loginFalse() throws IOException {
+        SqlSession session = DatabaseUtil.getSqlSession();
+        LoginCase loginCase = session.selectOne("loginCase", 2);
+        System.out.println(loginCase.toString());
+        System.out.println(TestConfig.loginUrl);
     }
 }

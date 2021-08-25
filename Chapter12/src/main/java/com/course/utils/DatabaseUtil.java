@@ -15,7 +15,7 @@ import java.io.Reader;
  * @Date 2021/8/24 11:28 下午
  * @Version 1.0
  **/
-public class DateBaseUtil {
+public class DatabaseUtil {
     public static SqlSession getSqlSession() throws IOException {
         //获取配置的资源文件
         Reader reader = Resources.getResourceAsReader("databaseConfig.xml");
