@@ -5,6 +5,7 @@ import com.course.model.InterfaceName;
 import com.course.model.LoginCase;
 import com.course.utils.ConfigFile;
 import com.course.utils.DatabaseUtil;
+import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.ibatis.session.SqlSession;
 import org.testng.annotations.BeforeTest;
@@ -27,11 +28,11 @@ public class LoginTest {
         TestConfig.addUserUrl = ConfigFile.getUrl(InterfaceName.ADDUSERINFO);
         TestConfig.updateUserInfoUrl = ConfigFile.getUrl(InterfaceName.UPDATEUSERINFO);
         TestConfig.loginUrl = ConfigFile.getUrl(InterfaceName.LOGIN);
-//        DefaultHttpClient defaultHttpClient = new DefaultHttpClient();//此方法已经被弃用
+//        TestConfig.defaultHttpClient = new DefaultHttpClient();//此方法已经被弃用
         TestConfig.defaultHttpClient = HttpClientBuilder.create().build();//使用该方法获取DefaultHttpClient请求
     }
 
-    @Test(groups = "loginTure", description = "用户登录成功接口测试")
+    @Test(groups = "loginTrue", description = "用户登录成功接口测试")
     public void loginTrue() throws IOException {
         SqlSession session = DatabaseUtil.getSqlSession();
         LoginCase loginCase = session.selectOne("loginCase", 1);

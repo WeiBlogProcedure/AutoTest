@@ -18,6 +18,7 @@ public class TestConfig {
     public static String getUserInfoUrl;
     public static String addUserUrl;
 
+//    public static DefaultHttpClient defaultHttpClient;//此方法已作废
     public static HttpClient defaultHttpClient;
     public static CookieStore store;
 }
