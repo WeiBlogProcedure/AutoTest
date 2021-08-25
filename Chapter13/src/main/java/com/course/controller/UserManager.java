@@ -56,6 +56,7 @@ public class UserManager {
         int result = 0;
         if (pass) {
             result = template.insert("addUser",user);
+            template.flushStatements();
         }
         if (result > 0) {
             log.info("添加用户的数量是：" + result);
@@ -71,6 +72,7 @@ public class UserManager {
 
         if (pass) {
             List<User> users = template.selectList("getUserInfo", user);
+            template.flushStatements();
             log.info("getUserInfo获取到的用户数量是：" + users.size());
             return users;
         }
@@ -87,6 +89,7 @@ public class UserManager {
 
         if (pass) {
             i = template.update("updateUserInfo", user);
+            template.flushStatements();
         }
 
         log.info("更新数据的条目数为：" + i);

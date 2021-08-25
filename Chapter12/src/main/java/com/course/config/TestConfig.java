@@ -2,6 +2,7 @@ package com.course.config;
 
 import org.apache.http.client.CookieStore;
 import org.apache.http.client.HttpClient;
+import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.DefaultHttpClient;
 
 /**
@@ -19,6 +20,6 @@ public class TestConfig {
     public static String addUserUrl;
 
 //    public static DefaultHttpClient defaultHttpClient;//此方法已作废
-    public static HttpClient defaultHttpClient;
+    public static CloseableHttpClient defaultHttpClient;
     public static CookieStore store;
 }
