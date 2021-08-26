@@ -1,0 +1,71 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xmlns:p="http://www.springframework.org/schema/p"-->
+<!--       xmlns:aop="http://www.springframework.org/schema/aop"-->
+<!--       xmlns:context="http://www.springframework.org/schema/context"-->
+<!--       xmlns:tx="http://www.springframework.org/schema/tx"-->
+<!--       xsi:schemaLocation="http://www.springframework.org/schema/beans-->
+<!--        http://www.springframework.org/schema/beans/spring-beans.xsd-->
+<!--        http://www.springframework.org/schema/context-->
+<!--        http://www.springframework.org/schema/context/spring-context-4.3.xsd-->
+<!--        http://www.springframework.org/schema/aop-->
+<!--        http://www.springframework.org/schema/aop/spring-aop-4.3.xsd-->
+<!--        http://www.springframework.org/schema/tx-->
+<!--        http://www.springframework.org/schema/tx/spring-tx-4.3.xsd">-->
+
+<!--    &lt;!&ndash;1 引入属性文件，在配置中占位使用 &ndash;&gt;-->
+<!--    <context:property-placeholder location="classpath*:db.properties" />-->
+
+<!--    &lt;!&ndash;2 配置C3P0数据源 &ndash;&gt;-->
+<!--    <bean id="datasource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">-->
+<!--        &lt;!&ndash;驱动类名 &ndash;&gt;-->
+<!--        <property name="driverClass" value="${jdbc.driver}" />-->
+<!--        &lt;!&ndash; url &ndash;&gt;-->
+<!--        <property name="jdbcUrl" value="${jdbc.url}" />-->
+<!--        &lt;!&ndash; 用户名 &ndash;&gt;-->
+<!--        <property name="user" value="${jdbc.uid}" />-->
+<!--        &lt;!&ndash; 密码 &ndash;&gt;-->
+<!--        <property name="password" value="${jdbc.pwd}" />-->
+<!--        &lt;!&ndash; 当连接池中的连接耗尽的时候c3p0一次同时获取的连接数  &ndash;&gt;-->
+<!--        <property name="acquireIncrement" value="5"/>-->
+<!--        &lt;!&ndash; 初始连接池大小 &ndash;&gt;-->
+<!--        <property name="initialPoolSize" value="10"/>-->
+<!--        &lt;!&ndash; 连接池中连接最小个数 &ndash;&gt;-->
+<!--        <property name="minPoolSize" value="5"/>-->
+<!--        &lt;!&ndash; 连接池中连接最大个数 &ndash;&gt;-->
+<!--        <property name="maxPoolSize" value="20"/>-->
+<!--    </bean>-->
+
+<!--    &lt;!&ndash;3 会话工厂bean sqlSessionFactoryBean &ndash;&gt;-->
+<!--    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">-->
+<!--        &lt;!&ndash; 数据源 &ndash;&gt;-->
+<!--        <property name="dataSource" ref="datasource"/>-->
+<!--        &lt;!&ndash; 别名 &ndash;&gt;-->
+<!--        <property name="typeAliasesPackage" value="com.guazi.paym.autotest.entities"/>-->
+<!--        &lt;!&ndash; sql映射文件路径 &ndash;&gt;-->
+<!--        <property name="mapperLocations" value="classpath*:mapper/*Mapper.xml"/>-->
+<!--    </bean>-->
+
+<!--    &lt;!&ndash;4 自动扫描对象关系映射 &ndash;&gt;-->
+<!--    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">-->
+<!--        &lt;!&ndash;指定会话工厂，如果当前上下文中只定义了一个则该属性可省去 &ndash;&gt;-->
+<!--        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>-->
+<!--        &lt;!&ndash; 指定要自动扫描接口的基础包，实现接口 &ndash;&gt;-->
+<!--        <property name="basePackage" value="com.guazi.paym.autotest.mapper"/>-->
+<!--    </bean>-->
+
+<!--    &lt;!&ndash;5 声明式事务管理 &ndash;&gt;-->
+<!--    &lt;!&ndash;定义事物管理器，由spring管理事务 &ndash;&gt;-->
+<!--    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">-->
+<!--        <property name="dataSource" ref="datasource"></property>-->
+<!--    </bean>-->
+<!--    &lt;!&ndash;支持注解驱动的事务管理，指定事务管理器 &ndash;&gt;-->
+<!--    <tx:annotation-driven transaction-manager="transactionManager"/>-->
+
+<!--    &lt;!&ndash;6 容器自动扫描IOC组件  &ndash;&gt;-->
+<!--    <context:component-scan base-package="com.guazi.paym.autotest"/>-->
+
+<!--    &lt;!&ndash;7 aspectj支持自动代理实现AOP功能 &ndash;&gt;-->
+<!--    <aop:aspectj-autoproxy proxy-target-class="true"/>-->
+<!--</beans>-->
